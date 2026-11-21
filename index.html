@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      button {
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        color: rgb(216, 17, 173);
+        margin-top: 16px;
+      }
+      
+      h5 {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        color: rgb(17, 24, 39);
+        margin-top: 16px;
+      }
+
+      p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: rgb(55, 65, 81);
+        margin-top: 16px;
+      }
+
+      .container {
+            container-type: inline-size;
+            background-color: #FFFFFF; /* Example background color */
+            width: 360px; /* Example width */
+            height: 400px; /* Example height */
+            border-radius: 15px; /* This creates the rounded corners */
+            padding-left: 0px; /* Example padding */
+            /* text-align: center; */
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        p.small-text {
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: rgb(107, 114, 128);
+        margin-top: 35px;
+        }
+
+        .line {
+            width: calc(100% + 20px); /* 40px = left + right padding of .container */
+            height: 1px;
+            color: #000000;
+            margin: 0 -20px; /* push it into the padding */
+            margin: 25px 0;
+        }
+      
+    </style>
+  </head>
+  <body>
+
+   <div class="container">
+        <img src="\resources\Cactus.jpg" alt="cactus">
+        <h1>Embracing Minimalism</h1>
+        <button>Design</button>
+        <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        <div class="line"></div>
+        <p class="small-text">Annie Spratt</p>
+     <div class="author-info">
+      Coded by <a href="#">Arya</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </div>
+  </body> 
+</html>
